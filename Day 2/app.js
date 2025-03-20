@@ -9,7 +9,7 @@ inputField.addEventListener("input", function () {
     outputField.innerText = "Password is too short";
     outputField.style.color = "red";
     outputField.style.textShadow =
-      " rgb(241 0 3) -2px 0px 16px, rgb(235 63 63) 0px 0px 0px;";
+    "rgb(197 24 24) 0px 0px 8px, rgb(0, 4, 2) 0px 0px 0px;"
     icon.style.color = "red";
   } else if (password.search(/[a-z]/) == -1) {
     outputField.innerText = "Password is missing a Lowercase letter";
